@@ -4,6 +4,6 @@ const eventSchema = new mongoose.Schema({
     eventAuther: String,
     date: String,
     phone:String,
-    message:String,
+    message:String
 });
 module.exports = mongoose.model('Event',eventSchema);
